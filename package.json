@@ -1,0 +1,19 @@
+{
+  "name": "bot-reservas-starter",
+  "version": "1.0.0",
+  "description": "WhatsApp -> Google Calendar booking bot (starter)",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node src/server.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "better-sqlite3": "^9.4.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "googleapis": "^131.0.0",
+    "node-cron": "^3.0.3"
+  }
+}
